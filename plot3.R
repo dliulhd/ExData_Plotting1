@@ -1,7 +1,10 @@
-#The following line is not necessary if "InputData.R" is already sourced elsewhere
-#source("InputData.R")
+# Run "InputData.R" file before this file
+
+# Please note that the author's computer uses French
+# The days of the week in the x-axis are "Jeu", "Ven" and "Sam" for "Thu", "Fri" and "Sat"
 
 # Do Plot 3
+ 
 png("plot3.png",bg = "transparent")
 plot(DataExtd$datetime,DataExtd$Sub_metering_1,type="n",xlab = "",ylab = "Energy sub metering")
 
